@@ -1,0 +1,27 @@
+{
+  "name": "javascript-actions",
+  "version": "1.0.0",
+  "description": "Accion reutilizable para una tirada de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx ncc build index.js --license licences.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ajedrel/javascript-actions.git"
+  },
+  "author": "Alfredo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ajedrel/javascript-actions/issues"
+  },
+  "homepage": "https://github.com/Ajedrel/javascript-actions#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.1"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.3"
+  }
+}
